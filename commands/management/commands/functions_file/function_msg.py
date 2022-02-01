@@ -47,7 +47,7 @@ def view_chat(groupname,client,number):
         print(e)
 
 
-def user_banned(client,number,apiid,apihash):
+def user_banned(client,number):
     try:
         banned = False
         client.connect()
@@ -73,3 +73,20 @@ def user_banned(client,number,apiid,apihash):
     except Exception as e:
         client.disconnect()
         print(e)
+
+
+
+def script_chat(i,number,id,hash,msg,group):
+    try:
+        print(i,number,'----------',msg)
+        # client = TelegramClient(f'./sessions/{number}',id,hash)
+        # client.connect()
+        # entity = client.get_entity(group)
+        # client.send_message(entity,msg)
+        # print(f"{number} sent a message {msg}")
+        # time.sleep(random.randint(10,20))
+        # client.disconnect()
+
+    except Exception as e:
+        # client.disconnect()
+        print(e)    
