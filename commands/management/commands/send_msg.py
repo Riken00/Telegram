@@ -13,17 +13,18 @@ class Command(BaseCommand):
         msg = kwargs['msg']
         group = kwargs['group']
         view_group = kwargs['view_group']
+
         while True:
-            for i in user_details.objects.all():
-                print(i)
+            data = user_details.objects.all()
+            for i in data:
+            # for i in user_detail.objects.all():
                 number = i.number
                 api_id = i.api_id
                 api_hash = i.api_hash
-                client = TelegramClient(f'./sessions/{number}',api_id,api_hash)
-                banned = user_banned(client,number,api_id,api_hash) 
-                if banned:
-                    continue
-                else :
-                    send_messages(view_group,group,msg,client,number)
-                time.sleep(random.randint(30,60))
-            time.sleep(random.randint(600,1200))
+                banned = user_banned(number,api_id,api_hash) 
+                if banned == False:
+                    send_messages(view_group,group,msg,number,api_id,api_hash)
+                    time.sleep(random.randint(3,6))
+            print('Time is sleep for some secounds')
+            time.sleep(random.randint(6,12))
+                    

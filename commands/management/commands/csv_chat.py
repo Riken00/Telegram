@@ -1,7 +1,7 @@
 from collections import UserList
 from pprint import pprint
 from django.core.management.base import BaseCommand
-from home.models import user_details
+from commands.models import user_details
 from .functions_file.function_msg import *
 import pandas as pd 
 
@@ -39,9 +39,8 @@ class Command(BaseCommand):
                 if not i in dict :
                     user_cred = True
                     while user_cred == True:
-                        # client = TelegramClient(f'./sessions/{data[user_count][0]}',data[user_count][1],data[user_count][2])
-                        # banned = user_banned(client,data[user_count][0])
-                        if data_length == user_count:
+                        banned = user_banned(data[user_count][0],data[user_count][1],data[user_count][2])
+                        if data_length <= user_count:
                             print('not enough user')
                             user_cred = False
                         else:
@@ -78,7 +77,7 @@ class Command(BaseCommand):
                         hash = dict[i]['apihash'] 
                         if number and id and hash:
                             # client = TelegramClient(f'./sessions/{number}',id,hash)
-                            # banned = user_banned(client,number)
+                            banned = user_banned(number,id,hash)
                             if banned:
                                 dict[i] = {
                                     'number' : data[user_count][0],
