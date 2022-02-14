@@ -1,0 +1,55 @@
+2022-02-10 03:47:01,897  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start to kill bot processes
+2022-02-10 03:47:01,898  tiktok.py  home.management.commands.functions.functions	 DEBUG    appium: True, emulators: True
+2022-02-10 03:47:01,924  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 1, 'action_type': 'KillAppiumServer', 'action': 'Killed appium server for discord_avd_463', 'error': None}
+2022-02-10 03:47:02,060  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 1, 'action_type': 'KillEmulator', 'action': 'Killed all available emulators for discord_avd_463', 'error': None}
+2022-02-10 03:47:02,061  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start appium server, port: 4724
+2022-02-10 03:47:04,811  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 1, 'action_type': 'StartAppiumServer', 'action': 'Started Appium server for discord_avd_463', 'error': None}
+2022-02-10 03:50:19,334  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start to kill bot processes
+2022-02-10 03:50:19,334  tiktok.py  home.management.commands.functions.functions	 DEBUG    appium: True, emulators: True
+2022-02-10 03:50:19,360  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 2, 'action_type': 'KillAppiumServer', 'action': 'Killed appium server for tiktok_avd_381', 'error': None}
+2022-02-10 03:50:19,493  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 2, 'action_type': 'KillEmulator', 'action': 'Killed all available emulators for tiktok_avd_381', 'error': None}
+2022-02-10 03:50:19,493  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start appium server, port: 4724
+2022-02-10 03:50:20,845  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 2, 'action_type': 'StartAppiumServer', 'action': 'Started Appium server for tiktok_avd_381', 'error': None}
+2022-02-10 03:50:20,845  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 2, 'action_type': 'TiktokBotInit', 'action': 'Initiated DiscordBot instance with tiktok_avd_381', 'error': None}
+2022-02-10 03:50:20,846  functions.py  home.management.commands.functions.functions	 DEBUG    Command: adb start-server
+2022-02-10 03:50:21,011  functions.py  home.management.commands.functions.functions	 DEBUG    Successful to run the command: adb start-server
+2022-02-10 03:50:21,012  functions.py  home.management.commands.functions.functions	 DEBUG    Result of the command: * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+2022-02-10 03:57:45,092  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start to kill bot processes
+2022-02-10 03:57:45,093  tiktok.py  home.management.commands.functions.functions	 DEBUG    appium: True, emulators: True
+2022-02-10 03:57:45,116  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 3, 'action_type': 'KillAppiumServer', 'action': 'Killed appium server for tiktok_avd_144', 'error': None}
+2022-02-10 03:57:45,257  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 3, 'action_type': 'KillEmulator', 'action': 'Killed all available emulators for tiktok_avd_144', 'error': None}
+2022-02-10 03:57:45,257  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start appium server, port: 4724
+2022-02-10 03:57:46,586  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 3, 'action_type': 'StartAppiumServer', 'action': 'Started Appium server for tiktok_avd_144', 'error': None}
+2022-02-10 03:57:46,587  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 3, 'action_type': 'TiktokBotInit', 'action': 'Initiated DiscordBot instance with tiktok_avd_144', 'error': None}
+2022-02-10 03:57:46,587  functions.py  home.management.commands.functions.functions	 DEBUG    Command: adb start-server
+2022-02-10 03:57:46,738  functions.py  home.management.commands.functions.functions	 DEBUG    Successful to run the command: adb start-server
+2022-02-10 03:57:46,738  functions.py  home.management.commands.functions.functions	 DEBUG    Result of the command: * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+2022-02-10 03:59:56,794  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start to kill bot processes
+2022-02-10 03:59:56,794  tiktok.py  home.management.commands.functions.functions	 DEBUG    appium: True, emulators: True
+2022-02-10 03:59:56,819  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 4, 'action_type': 'KillAppiumServer', 'action': 'Killed appium server for tiktok_avd_280', 'error': None}
+2022-02-10 03:59:56,989  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 4, 'action_type': 'KillEmulator', 'action': 'Killed all available emulators for tiktok_avd_280', 'error': None}
+2022-02-10 03:59:56,989  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start appium server, port: 4724
+2022-02-10 03:59:58,328  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 4, 'action_type': 'StartAppiumServer', 'action': 'Started Appium server for tiktok_avd_280', 'error': None}
+2022-02-10 03:59:58,328  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 4, 'action_type': 'TiktokBotInit', 'action': 'Initiated DiscordBot instance with tiktok_avd_280', 'error': None}
+2022-02-10 03:59:58,328  functions.py  home.management.commands.functions.functions	 DEBUG    Command: adb start-server
+2022-02-10 03:59:58,471  functions.py  home.management.commands.functions.functions	 DEBUG    Successful to run the command: adb start-server
+2022-02-10 03:59:58,471  functions.py  home.management.commands.functions.functions	 DEBUG    Result of the command: * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+2022-02-10 04:10:36,388  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start to kill bot processes
+2022-02-10 04:10:36,388  tiktok.py  home.management.commands.functions.functions	 DEBUG    appium: True, emulators: True
+2022-02-10 04:10:36,411  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 5, 'action_type': 'KillAppiumServer', 'action': 'Killed appium server for tiktok_avd_12', 'error': None}
+2022-02-10 04:10:37,566  functions.py  home.management.commands.functions.functions	 DEBUG    Retry to run the command: pgrep adb
+2022-02-10 04:10:37,588  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 5, 'action_type': 'KillEmulator', 'action': 'Killed all available emulators for tiktok_avd_12', 'error': None}
+2022-02-10 04:10:37,588  tiktok.py  home.management.commands.functions.functions	 DEBUG    Start appium server, port: 4724
+2022-02-10 04:10:38,929  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 5, 'action_type': 'StartAppiumServer', 'action': 'Started Appium server for tiktok_avd_12', 'error': None}
+2022-02-10 04:10:38,929  functions.py  home.management.commands.functions.functions	 DEBUG    Log Activity: {'avd_id': 5, 'action_type': 'TiktokBotInit', 'action': 'Initiated DiscordBot instance with tiktok_avd_12', 'error': None}
+2022-02-10 04:10:38,929  functions.py  home.management.commands.functions.functions	 DEBUG    Command: adb start-server
+2022-02-10 04:10:39,075  functions.py  home.management.commands.functions.functions	 DEBUG    Successful to run the command: adb start-server
+2022-02-10 04:10:39,076  functions.py  home.management.commands.functions.functions	 DEBUG    Result of the command: * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
